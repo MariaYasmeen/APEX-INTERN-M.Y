@@ -31,6 +31,11 @@
   margin: 0;
   padding: 0; }
 
+  html {
+  scroll-behavior: smooth;
+}
+
+
 .paragraph, .form-search input[type="search"], p, section.blog-section .blog-box .blog-post ul.post-meta li, .pagination-box a.prev,
 .pagination-box a.next {
   font-size: 14px;
@@ -498,7 +503,7 @@ section.page-banner-section {
     margin: 0; }
   section.page-banner-section a {
     float: right;
-    color: #3f51b5;
+    color: #a6afe4;
     font-size: 11px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
@@ -532,35 +537,9 @@ section.page-banner-section:after {
   background: rgba(64, 81, 181, 0.9); }
 
 section.page-banner-section.contact {
-  /*
-   * Set a counter and get the length of the image path.
-   */
-  /*
-   * Loop ver the image path and figure out the
-   * position of the dot where the extension begins.
-   */
-  /*
-   * If we were able to figure out where the extension is,
-   * slice the path into a base and an extension. Use that to
-   * calculate urls for different density environments. Set
-   * values for different environments.
-   */
-  /*
-     * Set a base background for 1x environments.
-     */
-  background: #111 url("../upload/banners/ban1.jpg") center center no-repeat;
+    background: #111 url("../upload/banners/ban1.jpg") center center no-repeat;
   background-size: cover;
-  /*
-     * Create an @2x-ish media query.
-     */
-  /*
-     * Create media queries for all environments that the user has
-     * provided images for.
-     */
-  /*
-   * If anything went wrong trying to separate the file from its
-   * extension, set a background value without doing anything to it.
-   */ }
+  }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.contact {
       background: #111 url("../upload/banners/ban1@2x.jpg") center center no-repeat;
@@ -571,35 +550,10 @@ section.page-banner-section.contact {
       background-size: cover; } }
 
 section.page-banner-section.about {
-  /*
-   * Set a counter and get the length of the image path.
-   */
-  /*
-   * Loop ver the image path and figure out the
-   * position of the dot where the extension begins.
-   */
-  /*
-   * If we were able to figure out where the extension is,
-   * slice the path into a base and an extension. Use that to
-   * calculate urls for different density environments. Set
-   * values for different environments.
-   */
-  /*
-     * Set a base background for 1x environments.
-     */
+ 
   background: #111 url("../upload/banners/ban2.jpg") center center no-repeat;
   background-size: cover;
-  /*
-     * Create an @2x-ish media query.
-     */
-  /*
-     * Create media queries for all environments that the user has
-     * provided images for.
-     */
-  /*
-   * If anything went wrong trying to separate the file from its
-   * extension, set a background value without doing anything to it.
-   */ }
+ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.about {
       background: #111 url("../upload/banners/ban2@2x.jpg") center center no-repeat;
@@ -610,35 +564,10 @@ section.page-banner-section.about {
       background-size: cover; } }
 
 section.page-banner-section.reviews {
-  /*
-   * Set a counter and get the length of the image path.
-   */
-  /*
-   * Loop ver the image path and figure out the
-   * position of the dot where the extension begins.
-   */
-  /*
-   * If we were able to figure out where the extension is,
-   * slice the path into a base and an extension. Use that to
-   * calculate urls for different density environments. Set
-   * values for different environments.
-   */
-  /*
-     * Set a base background for 1x environments.
-     */
+  
   background: #111 url("../upload/banners/ban3.jpg") center center no-repeat;
   background-size: cover;
-  /*
-     * Create an @2x-ish media query.
-     */
-  /*
-     * Create media queries for all environments that the user has
-     * provided images for.
-     */
-  /*
-   * If anything went wrong trying to separate the file from its
-   * extension, set a background value without doing anything to it.
-   */ }
+ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.reviews {
       background: #111 url("../upload/banners/ban3@2x.jpg") center center no-repeat;
@@ -649,35 +578,10 @@ section.page-banner-section.reviews {
       background-size: cover; } }
 
 section.page-banner-section.services {
-  /*
-   * Set a counter and get the length of the image path.
-   */
-  /*
-   * Loop ver the image path and figure out the
-   * position of the dot where the extension begins.
-   */
-  /*
-   * If we were able to figure out where the extension is,
-   * slice the path into a base and an extension. Use that to
-   * calculate urls for different density environments. Set
-   * values for different environments.
-   */
-  /*
-     * Set a base background for 1x environments.
-     */
+  
   background: #111 url("../upload/banners/ban4.jpg") center center no-repeat;
   background-size: cover;
-  /*
-     * Create an @2x-ish media query.
-     */
-  /*
-     * Create media queries for all environments that the user has
-     * provided images for.
-     */
-  /*
-   * If anything went wrong trying to separate the file from its
-   * extension, set a background value without doing anything to it.
-   */ }
+  }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.services {
       background: #111 url("../upload/banners/ban4@2x.jpg") center center no-repeat;
@@ -688,35 +592,10 @@ section.page-banner-section.services {
       background-size: cover; } }
 
 section.page-banner-section.blog {
-  /*
-   * Set a counter and get the length of the image path.
-   */
-  /*
-   * Loop ver the image path and figure out the
-   * position of the dot where the extension begins.
-   */
-  /*
-   * If we were able to figure out where the extension is,
-   * slice the path into a base and an extension. Use that to
-   * calculate urls for different density environments. Set
-   * values for different environments.
-   */
-  /*
-     * Set a base background for 1x environments.
-     */
+  
   background: #111 url("../upload/banners/ban5.jpg") center center no-repeat;
   background-size: cover;
-  /*
-     * Create an @2x-ish media query.
-     */
-  /*
-     * Create media queries for all environments that the user has
-     * provided images for.
-     */
-  /*
-   * If anything went wrong trying to separate the file from its
-   * extension, set a background value without doing anything to it.
-   */ }
+  }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.blog {
       background: #111 url("../upload/banners/ban5@2x.jpg") center center no-repeat;
@@ -942,7 +821,7 @@ section.moving-company-section {
   /*
      * Set a base background for 1x environments.
      */
-  background: #111 url("../upload/banners/1.jpg") center center no-repeat;
+  background: #111 url("https://i.pinimg.com/736x/a3/0d/c4/a30dc439d6d870ac7c2c616d63066e22.jpg") center center no-repeat;
   background-size: cover;
   /*
      * Create an @2x-ish media query.
@@ -984,8 +863,7 @@ section.moving-company-section {
       margin-bottom: 20px; }
     section.moving-company-section .moving-company-box .statistic-box .statistic-post p {
       margin-bottom: 0;
-      font-size: 13px;
-      color: #c0c0c0;
+      font-size: 13px; 
       line-height: 18px; }
 
 /*------------------------------------------------- */
@@ -1455,7 +1333,7 @@ section.statistic-section {
   /*
      * Set a base background for 1x environments.
      */
-  background: #111 url("../upload/banners/banner.jpg") center center fixed;
+  background: #111 url("https://i.pinimg.com/736x/06/9f/de/069fde26c118ba9a55118474f2b61d4f.jpg") center center fixed;
   background-size: cover;
   /*
      * Create an @2x-ish media query.
@@ -1708,7 +1586,7 @@ section.contacting-section {
     /*
      * Set a base background for 1x environments.
      */
-    background: #111 url("../upload/others/mov2.jpg") center center no-repeat;
+    background: #111 url("https://i.pinimg.com/736x/92/f6/80/92f680ebf2eee9e752f27d15ec37dfc8.jpg") center center no-repeat;
     background-size: cover;
     /*
      * Create an @2x-ish media query.
