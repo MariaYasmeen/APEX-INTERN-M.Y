@@ -749,13 +749,13 @@ section.moving-services-section {
     -o-transition: all 0.25s ease-in-out; }
     section.moving-services-section .moving-services-box .moving-services-post .inner-post span, section.moving-services-section .moving-services-box .moving-services-post .inner-post i {
       display: inline-block;
-      color: #3f51b5;
+      color: #bcc4ee;
       font-size: 38px;
       margin-bottom: 20px; }
     section.moving-services-section .moving-services-box .moving-services-post .inner-post p {
       margin-bottom: 13px; }
     section.moving-services-section .moving-services-box .moving-services-post .inner-post a {
-      color: #3f51b5;
+      color: #919cda;
       font-size: 11px;
       font-weight: 600;
       font-family: "Montserrat", sans-serif;
@@ -798,20 +798,18 @@ section.moving-services-section {
         z-index: 3;
         padding: 65px 80px; }
         section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover p {
-          color: #fff;
-          margin-bottom: 15px; }
+           margin-bottom: 15px; }
         section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover ul.serv-list {
           margin-bottom: 25px;
           text-align: left;
           padding-left: 30px; }
           section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover ul.serv-list li {
-            color: #fff;
-            font-size: 14px;
+             font-size: 14px;
             font-family: "Montserrat", sans-serif;
             font-weight: 500;
             margin-bottom: 5px; }
         section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover a {
-          color: #fff;
+          color: #020000;
           font-size: 11px;
           font-weight: 600;
           font-family: "Montserrat", sans-serif;
@@ -833,7 +831,7 @@ section.moving-services-section {
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(64, 81, 181, 0.9);
+      background: rgba(215, 218, 255, 0.9);
       z-index: 2;
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
