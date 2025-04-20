@@ -48,7 +48,12 @@ body {
     position: relative;
     overflow-x: hidden;
 }
- 
+
+/*Common Styles*/
+    {
+    padding: 0;
+    margin: 0;
+}
 
 h1,
 h2,
@@ -190,11 +195,11 @@ button {
 }
 
 .bg-grey {
-    background-color: #e6dede;
+    background-color: #fafafa;
 }
 
 .bg-pink {
-    background-color: #567a13;
+    background-color: #DAF7A6;
 }
 
 .bg-dark {
@@ -1077,7 +1082,7 @@ select option {
 }
 
 .line-menu {
-    background-color: #1222;
+    background-color: #1c1c1c222;
     border-radius: 2px;
     width: 100%;
     height: 3px;
@@ -1166,7 +1171,11 @@ select option {
     transition: opacity .5s ease, visibility .5s ease;
 }
 
- 
+.header-menu-wrap li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    z-index: 99;
+}
 
 .header-menu-wrap li li {
     background-color: #008000;
@@ -1923,8 +1932,8 @@ select option {
 @media all and (max-width: 768px) {
     .side-menu-wrapper {
         width: 100%;
-        -webkit-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
+        -webkit-transform: translateX(-100%));
+        -ms-transform: translateX(-100%));
         transform: translateX(-100%);
     }
 }
@@ -3171,7 +3180,7 @@ service-details-img img {
 }
 
 .skill-bg {
-    background-image: url(../img/skill-bg.jpg);
+    background-image: url("https://i.pinimg.com/736x/46/0c/03/460c033161ec9b7e5a7ced18e46c2e91.jpg") !important;
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
@@ -4380,7 +4389,7 @@ service-details-img img {
 
 .content-section .bg:before {
     content: "";
-    background-image: url("https://pmcaonline.org/wp-content/uploads/2022/01/Rubbish-Removal.jpg");
+    background-image: url(../img/content-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
@@ -4687,7 +4696,7 @@ service-details-img img {
     Cta Section
 ====================================================*/
 .cta-section {
-    background-image: url("https://www.1800gotjunk.com/sites/default/files/the-definitive-guide-to-junk-removal-top-image.png");
+    background-image: url("https://i.pinimg.com/736x/d8/96/5d/d8965d89cfbf7e137d1d406513fb9479.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -4713,7 +4722,7 @@ service-details-img img {
 
 /* ===== Cta 2 ===== */
 .cta-2 {
-    background-image: url("https://www.1800gotjunk.com/sites/default/files/the-definitive-guide-to-junk-removal-top-image.png");
+    background-image: url("https://i.pinimg.com/736x/d8/96/5d/d8965d89cfbf7e137d1d406513fb9479.jpg");
 }
 
 .cta-2 .cta-shape {
@@ -4740,7 +4749,7 @@ service-details-img img {
 
 .cta-2 .video-box:before {
     content: "";
-    background-image: url("https://pmcaonline.org/wp-content/uploads/2022/01/Rubbish-Removal.jpg");
+    background-image: url(../img/play-btn.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -6480,7 +6489,7 @@ blockquote span {
 }
 
 .booking-form {
-    background-color: #f7fcfa;
+    background-color: #fff;
     padding: 60px 40px 0 40px;
     position: relative;
     display: flex;
@@ -7008,7 +7017,7 @@ blockquote span {
     Widget Section
 ====================================================*/
 .widget-section {
-    background-color: #008000;
+background-color: aqua !important ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -7155,7 +7164,7 @@ blockquote span {
 
 /* ===== Widget 2 ===== */
 .widget-2 {
-    background-image: url("https://cdn.pixabay.com/photo/2015/10/15/21/09/texture-990071_1280.jpg");
+    background-image: url("https://i.pinimg.com/736x/2d/7c/c6/2d7cc63377237d9c77837a42b3a31662.jpg");
     overflow: hidden;
 }
 
@@ -7293,8 +7302,8 @@ blockquote span {
     Footer Section
 ====================================================*/
 .footer-section {
-    background-color: #004b23;
-    padding: 30px 0; 
+    background-color: #008000;
+    padding: 30px 0;
 }
 
 .footer-content {
