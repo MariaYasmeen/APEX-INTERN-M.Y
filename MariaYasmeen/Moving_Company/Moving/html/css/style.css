@@ -31,11 +31,6 @@
   margin: 0;
   padding: 0; }
 
-  html {
-  scroll-behavior: smooth;
-}
-
-
 .paragraph, .form-search input[type="search"], p, section.blog-section .blog-box .blog-post ul.post-meta li, .pagination-box a.prev,
 .pagination-box a.next {
   font-size: 14px;
@@ -263,15 +258,22 @@ ul.drop-down {
 /*------------------------------------------------- */
 /* =  Quote section
 *------------------------------------------------- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 section.quote-section {
-  padding: 60px 0;
-  background: #3f51b5; }
+  padding: 160px 0;
+  background-image: url("https://www.stjohnsmovers.net/slider/1-BG-621c86b1945f7.jpg"); }
   section.quote-section .quote-box {
     text-align: center; }
     section.quote-section .quote-box span, section.quote-section .quote-box i {
       color: #fff;
       display: inline-block;
       font-size: 24px;
+      margin-top: 110px;
       margin-bottom: 15px; }
     section.quote-section .quote-box h1 {
       color: #fff;
@@ -503,7 +505,7 @@ section.page-banner-section {
     margin: 0; }
   section.page-banner-section a {
     float: right;
-    color: #a6afe4;
+    color: #3f51b5;
     font-size: 11px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
@@ -537,9 +539,35 @@ section.page-banner-section:after {
   background: rgba(64, 81, 181, 0.9); }
 
 section.page-banner-section.contact {
-    background: #111 url("../upload/banners/ban1.jpg") center center no-repeat;
+  /*
+   * Set a counter and get the length of the image path.
+   */
+  /*
+   * Loop ver the image path and figure out the
+   * position of the dot where the extension begins.
+   */
+  /*
+   * If we were able to figure out where the extension is,
+   * slice the path into a base and an extension. Use that to
+   * calculate urls for different density environments. Set
+   * values for different environments.
+   */
+  /*
+     * Set a base background for 1x environments.
+     */
+  background: #111 url("../upload/banners/ban1.jpg") center center no-repeat;
   background-size: cover;
-  }
+  /*
+     * Create an @2x-ish media query.
+     */
+  /*
+     * Create media queries for all environments that the user has
+     * provided images for.
+     */
+  /*
+   * If anything went wrong trying to separate the file from its
+   * extension, set a background value without doing anything to it.
+   */ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.contact {
       background: #111 url("../upload/banners/ban1@2x.jpg") center center no-repeat;
@@ -550,10 +578,35 @@ section.page-banner-section.contact {
       background-size: cover; } }
 
 section.page-banner-section.about {
- 
+  /*
+   * Set a counter and get the length of the image path.
+   */
+  /*
+   * Loop ver the image path and figure out the
+   * position of the dot where the extension begins.
+   */
+  /*
+   * If we were able to figure out where the extension is,
+   * slice the path into a base and an extension. Use that to
+   * calculate urls for different density environments. Set
+   * values for different environments.
+   */
+  /*
+     * Set a base background for 1x environments.
+     */
   background: #111 url("../upload/banners/ban2.jpg") center center no-repeat;
   background-size: cover;
- }
+  /*
+     * Create an @2x-ish media query.
+     */
+  /*
+     * Create media queries for all environments that the user has
+     * provided images for.
+     */
+  /*
+   * If anything went wrong trying to separate the file from its
+   * extension, set a background value without doing anything to it.
+   */ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.about {
       background: #111 url("../upload/banners/ban2@2x.jpg") center center no-repeat;
@@ -564,10 +617,35 @@ section.page-banner-section.about {
       background-size: cover; } }
 
 section.page-banner-section.reviews {
-  
+  /*
+   * Set a counter and get the length of the image path.
+   */
+  /*
+   * Loop ver the image path and figure out the
+   * position of the dot where the extension begins.
+   */
+  /*
+   * If we were able to figure out where the extension is,
+   * slice the path into a base and an extension. Use that to
+   * calculate urls for different density environments. Set
+   * values for different environments.
+   */
+  /*
+     * Set a base background for 1x environments.
+     */
   background: #111 url("../upload/banners/ban3.jpg") center center no-repeat;
   background-size: cover;
- }
+  /*
+     * Create an @2x-ish media query.
+     */
+  /*
+     * Create media queries for all environments that the user has
+     * provided images for.
+     */
+  /*
+   * If anything went wrong trying to separate the file from its
+   * extension, set a background value without doing anything to it.
+   */ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.reviews {
       background: #111 url("../upload/banners/ban3@2x.jpg") center center no-repeat;
@@ -578,10 +656,35 @@ section.page-banner-section.reviews {
       background-size: cover; } }
 
 section.page-banner-section.services {
-  
+  /*
+   * Set a counter and get the length of the image path.
+   */
+  /*
+   * Loop ver the image path and figure out the
+   * position of the dot where the extension begins.
+   */
+  /*
+   * If we were able to figure out where the extension is,
+   * slice the path into a base and an extension. Use that to
+   * calculate urls for different density environments. Set
+   * values for different environments.
+   */
+  /*
+     * Set a base background for 1x environments.
+     */
   background: #111 url("../upload/banners/ban4.jpg") center center no-repeat;
   background-size: cover;
-  }
+  /*
+     * Create an @2x-ish media query.
+     */
+  /*
+     * Create media queries for all environments that the user has
+     * provided images for.
+     */
+  /*
+   * If anything went wrong trying to separate the file from its
+   * extension, set a background value without doing anything to it.
+   */ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.services {
       background: #111 url("../upload/banners/ban4@2x.jpg") center center no-repeat;
@@ -592,10 +695,35 @@ section.page-banner-section.services {
       background-size: cover; } }
 
 section.page-banner-section.blog {
-  
+  /*
+   * Set a counter and get the length of the image path.
+   */
+  /*
+   * Loop ver the image path and figure out the
+   * position of the dot where the extension begins.
+   */
+  /*
+   * If we were able to figure out where the extension is,
+   * slice the path into a base and an extension. Use that to
+   * calculate urls for different density environments. Set
+   * values for different environments.
+   */
+  /*
+     * Set a base background for 1x environments.
+     */
   background: #111 url("../upload/banners/ban5.jpg") center center no-repeat;
   background-size: cover;
-  }
+  /*
+     * Create an @2x-ish media query.
+     */
+  /*
+     * Create media queries for all environments that the user has
+     * provided images for.
+     */
+  /*
+   * If anything went wrong trying to separate the file from its
+   * extension, set a background value without doing anything to it.
+   */ }
   @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     section.page-banner-section.blog {
       background: #111 url("../upload/banners/ban5@2x.jpg") center center no-repeat;
@@ -628,13 +756,13 @@ section.moving-services-section {
     -o-transition: all 0.25s ease-in-out; }
     section.moving-services-section .moving-services-box .moving-services-post .inner-post span, section.moving-services-section .moving-services-box .moving-services-post .inner-post i {
       display: inline-block;
-      color: #bcc4ee;
+      color: #3f51b5;
       font-size: 38px;
       margin-bottom: 20px; }
     section.moving-services-section .moving-services-box .moving-services-post .inner-post p {
       margin-bottom: 13px; }
     section.moving-services-section .moving-services-box .moving-services-post .inner-post a {
-      color: #919cda;
+      color: #3f51b5;
       font-size: 11px;
       font-weight: 600;
       font-family: "Montserrat", sans-serif;
@@ -677,18 +805,20 @@ section.moving-services-section {
         z-index: 3;
         padding: 65px 80px; }
         section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover p {
-           margin-bottom: 15px; }
+          color: #fff;
+          margin-bottom: 15px; }
         section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover ul.serv-list {
           margin-bottom: 25px;
           text-align: left;
           padding-left: 30px; }
           section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover ul.serv-list li {
-             font-size: 14px;
+            color: #fff;
+            font-size: 14px;
             font-family: "Montserrat", sans-serif;
             font-weight: 500;
             margin-bottom: 5px; }
         section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover a {
-          color: #020000;
+          color: #fff;
           font-size: 11px;
           font-weight: 600;
           font-family: "Montserrat", sans-serif;
@@ -710,7 +840,7 @@ section.moving-services-section {
       left: 0;
       width: 100%;
       height: 100%;
-      background: rgba(215, 218, 255, 0.9);
+      background: rgba(64, 81, 181, 0.9);
       z-index: 2;
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
@@ -821,7 +951,7 @@ section.moving-company-section {
   /*
      * Set a base background for 1x environments.
      */
-  background: #111 url("https://i.pinimg.com/736x/a3/0d/c4/a30dc439d6d870ac7c2c616d63066e22.jpg") center center no-repeat;
+  background: #111 url("https://www.stjohnsmovers.net/assets/img/bg/bg-06.jpg") center center no-repeat;
   background-size: cover;
   /*
      * Create an @2x-ish media query.
@@ -863,7 +993,8 @@ section.moving-company-section {
       margin-bottom: 20px; }
     section.moving-company-section .moving-company-box .statistic-box .statistic-post p {
       margin-bottom: 0;
-      font-size: 13px; 
+      font-size: 13px;
+      color: #c0c0c0;
       line-height: 18px; }
 
 /*------------------------------------------------- */
@@ -1333,7 +1464,7 @@ section.statistic-section {
   /*
      * Set a base background for 1x environments.
      */
-  background: #111 url("https://i.pinimg.com/736x/06/9f/de/069fde26c118ba9a55118474f2b61d4f.jpg") center center fixed;
+  background: #111 url("../upload/banners/banner.jpg") center center fixed;
   background-size: cover;
   /*
      * Create an @2x-ish media query.
@@ -1586,7 +1717,7 @@ section.contacting-section {
     /*
      * Set a base background for 1x environments.
      */
-    background: #111 url("https://i.pinimg.com/736x/92/f6/80/92f680ebf2eee9e752f27d15ec37dfc8.jpg") center center no-repeat;
+    background: #111 url("https://i.pinimg.com/736x/5d/2d/18/5d2d18d7d5c48a781f2c2e8bcd4115d4.jpg") center center no-repeat;
     background-size: cover;
     /*
      * Create an @2x-ish media query.
